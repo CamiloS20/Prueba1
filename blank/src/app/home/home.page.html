@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="login"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Perfil</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <br>
+  <ion-title size="large" style="text-align: center ">Bienvenid@, {{nombre}} </ion-title>
+  <br>
+  <ion-img src="assets/img/avatar.png" style="width:120px center; height:120px"></ion-img>
+  <br>
+  <ion-label class="ion-text-left">
+    <p style="padding-left: 5px;  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Nombre del Alumno:</p>
+  </ion-label>
+  <h5 class="ion-text-left" style="padding-left: 5px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+{{nombre}}</h5>
+<br>
+  <ion-label class="ion-text-left">
+    <p style="padding-left: 5px;  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Sede del Alumno:</p>
+  <h5 class="ion-text-left" style="padding-left: 5px;  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+{{sede}}</h5>
+<br>
+  </ion-label>
+  <ion-label class="ion-text-left">
+    <p style="padding-left: 5px;  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Seccion del Alumno:</p>
+  <h5 class="ion-text-left" style="padding-left: 5px;  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+{{seccion}}</h5>
+  </ion-label>
+  <BR>
+  <BR>
+  <BR>
+  <h5 class="ion-text-center">Escanear</h5>
+  <ion-img src="assets/icon/camara.png" style="width:50px left; height:50px"></ion-img>
+  
+</ion-content>
